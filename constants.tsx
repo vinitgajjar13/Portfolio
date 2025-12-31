@@ -17,11 +17,11 @@ export const SERVICES: Service[] = [
     description: "I create Stunning designs that engage and inspire your audience. Let me bring your brand to life with my skills."
   },
   {
-    title: "App Developer",
+    title: "App Designer",
     description: "I specialize in transforming ideas into elegant, high-performing mobile applications."
   },
   {
-    title: "Web Development",
+    title: "Web Designer",
     description: "I develop elegant, responsive websites that blend visual appeal with smooth functionality for every device."
   },
   // {
