@@ -47,7 +47,7 @@ export const PROJECTS: Project[] = [
     id: "giardino-plant",
     title: "Giardino Plant",
     category: "(App Design)",
-    description: "A specialized e-commerce experience for plant enthusiasts. This project focused on creating an organic and calm shopping environment through carefully selected typography and high-quality imagery. The checkout process was optimized for single-hand mobile usage, significantly reducing abandoned carts.",
+    description: "A specialized e-commerce experience for plant enthusiasts. This project aimed to create an organic and calming shopping environment through the careful selection of typography and high-quality imagery. The checkout process was optimized for single-hand mobile usage, significantly reducing abandoned carts.",
     imageUrl: "https://picsum.photos/id/103/1200/600",
     images: [
       "https://picsum.photos/id/103/1200/600",
