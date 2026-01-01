@@ -61,7 +61,7 @@ const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 gap-6 sm:gap-8 md:gap-8 pb-12 md:pb-24 border-b border-black/10 dark:border-white/10">
 
           {/* Navigation Column */}
-          <div className="sm:col-span-1 md:col-span-4 space-y-6 sm:space-y-8">
+          <div className="sm:col-span-1 md:col-span-3 space-y-6 sm:space-y-8">
             <h4 className="text-xs sm:text-sm font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400">Navigation</h4>
             <ul className="space-y-3 sm:space-y-4">
               {NAV_LINKS.map((link) => (
@@ -73,7 +73,7 @@ const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
           </div>
 
           {/* Socials Column */}
-          <div className="sm:col-span-1 md:col-span-4 space-y-6 sm:space-y-8">
+          <div className="sm:col-span-1 md:col-span-3 space-y-6 sm:space-y-8">
             <h4 className="text-xs sm:text-sm font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400">Socials</h4>
             <ul className="space-y-3 sm:space-y-4">
               {SOCIAL_LINKS.map((link) => (
@@ -92,7 +92,7 @@ const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
           </div>
 
           {/* Resources/Action Column */}
-          <div className="sm:col-span-2 md:col-span-4 space-y-6 sm:space-y-8">
+          <div className="sm:col-span-1 md:col-span-3 space-y-6 sm:space-y-8">
             <h4 className="text-xs sm:text-sm font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400">Resources</h4>
             <div className="space-y-4 sm:space-y-6">
               <a href="#" className="block text-base sm:text-lg md:text-xl lg:text-2xl font-medium hover:text-[#A87E30] transition-colors">Portfolio V1</a>
@@ -105,6 +105,15 @@ const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
                   <ArrowUp className="rotate-45" size={14} />
                 </span>
               </button>
+            </div>
+          </div>
+
+          {/* Contact Column */}
+          <div className="sm:col-span-1 md:col-span-3 space-y-6 sm:space-y-8">
+            <h4 className="text-xs sm:text-sm font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400">Contact</h4>
+            <div className="space-y-4 sm:space-y-6">
+              <a href="mailto:karshalavinit1289@gmail.com" className="block text-base sm:text-lg md:text-xl lg:text-2xl font-medium hover:text-[#A87E30] transition-colors break-words">KARSHALAVINIT1289@GMAIL.COM</a>
+              <a href="tel:8799445757" className="block text-base sm:text-lg md:text-xl lg:text-2xl font-medium hover:text-[#A87E30] transition-colors">8799445757</a>
             </div>
           </div>
         </div>
