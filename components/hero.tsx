@@ -1,6 +1,7 @@
 
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, Variants } from 'framer-motion';
+import vinit_hero from "../assets/vinit_hero.png";
 
 const Hero: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -42,7 +43,7 @@ const Hero: React.FC = () => {
           initial={{ scale: 1.5, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 2.5, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] }}
-          src="assets/vinit_hero.png"
+          src={vinit_hero}
           alt="Vinit Karshala Portrait"
           className="w-full h-full object-cover grayscale brightness-75"
         />
