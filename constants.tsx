@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import { Linkedin, Github, Instagram, ArrowUpRight } from 'lucide-react';
 import { Project, Service } from './types';
-import pragalbh_hero from "../assets/public/pragalbh_hero.png";
-import pragalbh_guj from "../assets/public/pragalbh_guj.png";
+// import pragalbh_hero from "../assets/public/pragalbh_hero.png";
+// import pragalbh_guj from "../assets/public/pragalbh_guj.png";
 
 export const SOCIAL_LINKS = [
   { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/vinit-karshala-953a01229/", label: "LinkedIn" },
@@ -17,11 +17,11 @@ export const SERVICES: Service[] = [
     description: "I create Stunning designs that engage and inspire your audience. Let me bring your brand to life with my skills."
   },
   {
-    title: "App Developer",
+    title: "App Designer",
     description: "I specialize in transforming ideas into elegant, high-performing mobile applications."
   },
   {
-    title: "Web Development",
+    title: "Web Designer",
     description: "I develop elegant, responsive websites that blend visual appeal with smooth functionality for every device."
   },
   // {
@@ -47,7 +47,7 @@ export const PROJECTS: Project[] = [
     id: "giardino-plant",
     title: "Giardino Plant",
     category: "(App Design)",
-    description: "A specialized e-commerce experience for plant enthusiasts. This project focused on creating an organic and calm shopping environment through carefully selected typography and high-quality imagery. The checkout process was optimized for single-hand mobile usage, significantly reducing abandoned carts.",
+    description: "A specialized e-commerce experience for plant enthusiasts. This project aimed to create an organic and calming shopping environment through the careful selection of typography and high-quality imagery. The checkout process was optimized for single-hand mobile usage, significantly reducing abandoned carts.",
     imageUrl: "https://picsum.photos/id/103/1200/600",
     images: [
       "https://picsum.photos/id/103/1200/600",
@@ -60,10 +60,17 @@ export const PROJECTS: Project[] = [
     title: "Pragalbh Website",
     category: "(Website Development)",
     description: "A sleek and modern portfolio website designed to showcase creative work with elegance. Featuring smooth animations, responsive layout, and a focus on typography to highlight the content effectively.",
+<<<<<<< HEAD
     imageUrl: "/pragalbh_hero",
     images: [
       "/pragalbh_hero",
       "/pragalbh_guj"
+=======
+    imageUrl: pragalbh_hero,
+    images: [
+      pragalbh_hero,
+      pragalbh_guj
+>>>>>>> 5543e4aef14ed4fbf345ed632813e4892b728181
     ],
     technologies: ["React", "FIGMA", "MERN Stack", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Framer Motion", "TypeScript", "Git", "GitHub", "Netlify"],
     link: "https://www.pragalbh.co.in/"
