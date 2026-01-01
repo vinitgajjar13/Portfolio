@@ -60,17 +60,12 @@ export const PROJECTS: Project[] = [
     title: "Pragalbh Website",
     category: "(Website Development)",
     description: "A sleek and modern portfolio website designed to showcase creative work with elegance. Featuring smooth animations, responsive layout, and a focus on typography to highlight the content effectively.",
-<<<<<<< HEAD
+
     imageUrl: "/pragalbh_hero",
     images: [
       "/pragalbh_hero",
       "/pragalbh_guj"
-=======
-    imageUrl: pragalbh_hero,
-    images: [
-      pragalbh_hero,
-      pragalbh_guj
->>>>>>> 5543e4aef14ed4fbf345ed632813e4892b728181
+
     ],
     technologies: ["React", "FIGMA", "MERN Stack", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Framer Motion", "TypeScript", "Git", "GitHub", "Netlify"],
     link: "https://www.pragalbh.co.in/"
