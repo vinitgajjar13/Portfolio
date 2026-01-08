@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import { Linkedin, Github, Instagram, ArrowUpRight } from 'lucide-react';
 import { Project, Service } from './types';
-// import pragalbh_hero from "../assets/public/pragalbh_hero.png";
-// import pragalbh_guj from "../assets/public/pragalbh_guj.png";
+import pragalbh_hero from "./assets/public/pragalbh_hero.png";
+import pragalbh_guj from "./assets/public/pragalbh_guj.png";
 
 export const SOCIAL_LINKS = [
   { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/vinit-karshala-953a01229/", label: "LinkedIn" },
@@ -61,13 +61,13 @@ export const PROJECTS: Project[] = [
     category: "(Website Development)",
     description: "A sleek and modern portfolio website designed to showcase creative work with elegance. Featuring smooth animations, responsive layout, and a focus on typography to highlight the content effectively.",
 
-    imageUrl: "/pragalbh_hero",
+    imageUrl: pragalbh_hero,
     images: [
-      "/pragalbh_hero",
-      "/pragalbh_guj"
+      pragalbh_hero,
+      pragalbh_guj
 
     ],
-    technologies: ["React", "FIGMA", "MERN Stack", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Framer Motion", "TypeScript", "Git", "GitHub", "Netlify"],
+    technologies: ["React", "FIGMA", "MERN Stack", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Framer Motion", "TypeScript", "Git", "GitHub", "Vercel"],
     link: "https://www.pragalbh.co.in/"
   }
 ];

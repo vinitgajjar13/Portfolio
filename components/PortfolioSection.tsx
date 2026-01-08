@@ -84,11 +84,11 @@ const ProjectCard: React.FC<{
             <ArrowUpRight size={20} className="sm:w-6 sm:h-6 md:w-7 md:h-7" />
           </motion.div>
         </div>
-        <p className="text-xs sm:text-sm md:text-sm font-bold text-[#A87E30] tracking-widest uppercase border-b-2 border-[#A87E30] inline-block pb-1">
+        <div className="text-xs sm:text-sm md:text-sm font-bold text-[#A87E30] tracking-widest uppercase border-b-2 border-[#A87E30] inline-block pb-1">
           <ScrollFloat animationDuration={0.8} ease='easeOut'>
             {project.category}
           </ScrollFloat>
-        </p>
+        </div>
         <div className="text-sm sm:text-base md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed font-light max-w-lg">
           <ScrollFloat animationDuration={1.2} ease={[0.22, 1, 0.36, 1]} stagger={0.02}>
             {project.description}
