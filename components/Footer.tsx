@@ -128,7 +128,7 @@ const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
             <h2 className="text-2xl sm:text-4xl md:text-6xl font-bold tracking-tighter uppercase leading-tight">
               Vinit Karshala
             </h2>
-            <p className="text-xs sm:text-sm md:text-base text-gray-500 dark:text-gray-400 font-medium">© 2025 Vinit Karshala</p>
+            <p className="text-xs sm:text-sm md:text-base text-gray-500 dark:text-gray-400 font-medium">© 2024 Vinit Karshala</p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-start sm:items-end gap-6 md:gap-12 w-full md:w-auto">
