@@ -4,6 +4,9 @@ import { Linkedin, Github, Instagram, ArrowUpRight } from 'lucide-react';
 import { Project, Service } from './types';
 import pragalbh_hero from "./assets/public/pragalbh_hero.png";
 import pragalbh_guj from "./assets/public/pragalbh_guj.png";
+import gurukrupa from "./assets/public/gurukrupa.png"
+import jewellery from "./assets/public/jewellery.png"
+import doctor_app from "./assets/public/doctor_app.png"
 
 export const SOCIAL_LINKS = [
   { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/vinit-karshala-953a01229/", label: "LinkedIn" },
@@ -32,29 +35,45 @@ export const SERVICES: Service[] = [
 
 export const PROJECTS: Project[] = [
   {
-    id: "vehicle-rental",
-    title: "Vehicle Rental App",
-    category: "(Flutter and Dart)",
-    description: "The application was created to streamline the process of vehicle rentals for third-party users. It offers a user-friendly interface characterized by a minimalistic design, ensuring ease of navigation and a modern aesthetic. Developed with Flutter and Dart, the platform delivers efficient performance and cross-platform compatibility, making it accessible and reliable for a wide range of users seeking convenient vehicle rental solutions.",
-    imageUrl: "https://picsum.photos/id/102/1200/600",
+    id: "Jewellery",
+    title: "Jewellery Website",
+    category: "(Website Design)",
+    description: "A sleek and modern portfolio website designed to showcase creative work with elegance. Featuring smooth animations, responsive layout, and a focus on typography to highlight the content effectively.",
+    imageUrl: jewellery,
     images: [
-      "https://picsum.photos/id/102/1200/600",
+      jewellery
+
     ],
-    technologies: ["Flutter", "Firebase", "Dart", "Google Maps API"],
-    link: "https://behance.net"
+    technologies: ["FIGMA", "WireFrame", "HTML", "CSS"],
+    
+  },
+   {
+    id: "Medi-AI",
+    title: "Medi_AI App",
+    category: "(APP Design)",
+    description: "A sleek and modern portfolio website designed to showcase creative work with elegance. Featuring smooth animations, responsive layout, and a focus on typography to highlight the content effectively.",
+    imageUrl: doctor_app,
+    images: [
+        doctor_app
+
+    ],
+    technologies: ["FIGMA", "WireFrame"],
+    
   },
   {
-    id: "giardino-plant",
-    title: "Giardino Plant",
-    category: "(App Design)",
-    description: "A specialized e-commerce experience for plant enthusiasts. This project aimed to create an organic and calming shopping environment through the careful selection of typography and high-quality imagery. The checkout process was optimized for single-hand mobile usage, significantly reducing abandoned carts.",
-    imageUrl: "https://picsum.photos/id/103/1200/600",
+    id: "GuruKrupa",
+    title: "GuruKrupa Storage and shifting solution",
+    category: "(Website Design)",
+    description: "A sleek and modern portfolio website designed to showcase creative work with elegance. Featuring smooth animations, responsive layout, and a focus on typography to highlight the content effectively.",
+    imageUrl: gurukrupa,
     images: [
-      "https://picsum.photos/id/103/1200/600",
+      gurukrupa
+
     ],
-    technologies: ["Figma", "Adobe XD", "Protopie", "After Effects"],
-    link: "https://dribbble.com"
+    technologies: ["FIGMA", "WireFrame", "HTML", "CSS"],
+    
   },
+
   {
     id: "Pragalbh Associates",
     title: "Pragalbh Website",
