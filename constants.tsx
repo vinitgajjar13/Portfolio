@@ -38,7 +38,7 @@ export const PROJECTS: Project[] = [
     id: "Jewellery",
     title: "Jewellery Website",
     category: "(Website Design)",
-    description: "A sleek and modern portfolio website designed to showcase creative work with elegance. Featuring smooth animations, responsive layout, and a focus on typography to highlight the content effectively.",
+    description: "A sleek and modern Jewellery website designed to showcase creative work with elegance. Featuring smooth animations, responsive layout, and a focus on typography to highlight the content effectively.",
     imageUrl: jewellery,
     images: [
       jewellery
@@ -51,7 +51,7 @@ export const PROJECTS: Project[] = [
     id: "Medi-AI",
     title: "Medi_AI App",
     category: "(APP Design)",
-    description: "A sleek and modern portfolio website designed to showcase creative work with elegance. Featuring smooth animations, responsive layout, and a focus on typography to highlight the content effectively.",
+    description: "A Medi-AI app  design for doctor appointment and also helpful for patient, also provide the facility to book the appointment with the doctor. And also provide AI doctor for the patient.",
     imageUrl: doctor_app,
     images: [
         doctor_app
@@ -64,7 +64,7 @@ export const PROJECTS: Project[] = [
     id: "GuruKrupa",
     title: "GuruKrupa Storage and shifting solution",
     category: "(Website Design)",
-    description: "A sleek and modern portfolio website designed to showcase creative work with elegance. Featuring smooth animations, responsive layout, and a focus on typography to highlight the content effectively.",
+    description: "A sleek and modern GuruKrupa Storage and shifting solution website designed to showcase creative work with elegance. Featuring smooth animations, responsive layout, and a focus on typography to highlight the content effectively.",
     imageUrl: gurukrupa,
     images: [
       gurukrupa
@@ -78,7 +78,7 @@ export const PROJECTS: Project[] = [
     id: "Pragalbh Associates",
     title: "Pragalbh Website",
     category: "(Website Development)",
-    description: "A sleek and modern portfolio website designed to showcase creative work with elegance. Featuring smooth animations, responsive layout, and a focus on typography to highlight the content effectively.",
+    description: "A sleek and modern Pragalbh Associates website designed to showcase creative work with elegance. Featuring smooth animations, responsive layout, and a focus on typography to highlight the content effectively.",
 
     imageUrl: pragalbh_hero,
     images: [
