@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useVelocity, useSpring } from 'framer-motion';
 
 const WorkMarquee: React.FC = () => {
-  const items = Array(12).fill("Vinit Karshala");
+  const items = Array(12).fill("Vinit Karshala | UI/UX Designer | Web developer");
   const { scrollY } = useScroll();
   const scrollVelocity = useVelocity(scrollY);
 

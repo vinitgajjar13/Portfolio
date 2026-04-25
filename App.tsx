@@ -10,7 +10,7 @@ import PortfolioSection from './components/PortfolioSection';
 import Footer from './components/Footer';
 import ContactModal from './components/ContactModal';
 import Lenis from 'lenis';
-import { useSystemTheme } from './constants';
+// import { useSystemTheme } from './constants';
 
 const CursorTrail: React.FC = () => {
   const cursorX = useMotionValue(-100);
@@ -77,7 +77,7 @@ const RevealOnScroll: React.FC<{ children: React.ReactNode }> = ({ children }) =
 };
 
 const App: React.FC = () => {
-  useSystemTheme();
+  // useSystemTheme();
   const [contactModalOpen, setContactModalOpen] = useState(false);
 
   useEffect(() => {
@@ -134,7 +134,7 @@ const App: React.FC = () => {
 
       <main>
         <section id="home">
-          <Hero />
+          <Hero onOpenContact={() => setContactModalOpen(true)} />
         </section>
 
         <section id="about" className="py-20 md:py-32">

@@ -97,34 +97,34 @@ export const NAV_LINKS = [
   { name: 'Project', href: '#projects' },
 ];
 
-export const useSystemTheme = () => {
-  const [theme, setTheme] = useState<'dark' | 'light'>('light');
+// export const useSystemTheme = () => {
+//   const [theme, setTheme] = useState<'dark' | 'light'>('light');
 
-  useEffect(() => {
-    // Check initial system preference
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      setTheme('dark');
-      document.documentElement.classList.add('dark');
-    } else {
-      setTheme('light');
-      document.documentElement.classList.remove('dark');
-    }
+//   useEffect(() => {
+//     // Check initial system preference
+//     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+//       setTheme('dark');
+//       document.documentElement.classList.add('dark');
+//     } else {
+//       setTheme('light');
+//       document.documentElement.classList.remove('dark');
+//     }
 
-    // Listen for changes
-    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    const handleChange = (e: MediaQueryListEvent) => {
-      if (e.matches) {
-        setTheme('dark');
-        document.documentElement.classList.add('dark');
-      } else {
-        setTheme('light');
-        document.documentElement.classList.remove('dark');
-      }
-    };
+//     // Listen for changes
+//     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+//     const handleChange = (e: MediaQueryListEvent) => {
+//       if (e.matches) {
+//         setTheme('dark');
+//         document.documentElement.classList.add('dark');
+//       } else {
+//         setTheme('light');
+//         document.documentElement.classList.remove('dark');
+//       }
+//     };
 
-    mediaQuery.addEventListener('change', handleChange);
-    return () => mediaQuery.removeEventListener('change', handleChange);
-  }, []);
+//     mediaQuery.addEventListener('change', handleChange);
+//     return () => mediaQuery.removeEventListener('change', handleChange);
+//   }, []);
 
-  return theme;
-};
+//   return theme;
+// };
