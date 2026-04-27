@@ -13,7 +13,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [formError, setFormError] = useState('');
-    const contactEmail = 'karshalavinit1289@gmail.com';
+        const contactEmail = 'karshalavinit1289@gmail.com';
 
     const resetForm = () => {
         setName('');

@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { motion, useScroll, useTransform, useInView, Variants } from 'framer-motion';
+import { motion, useScroll, useTransform, useInView, Variants, type Easing } from 'framer-motion';
 
 interface ScrollFloatProps {
     children: string | React.ReactNode;
@@ -7,7 +7,7 @@ interface ScrollFloatProps {
     containerClassName?: string;
     animationDuration?: number;
     // Delay between words
-    ease?: string | number[];
+    ease?: Easing | Easing[];
     stagger?: number;
 }
 

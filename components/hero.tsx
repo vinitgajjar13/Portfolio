@@ -95,20 +95,20 @@ const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
             transition={{ delay: 0.08, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
             className="relative"
           >
-            <div className="relative ml-auto w-full max-w-[42rem] overflow-hidden rounded-[2.5rem] bg-[#f7f7f7] shadow-[0_30px_90px_rgba(15,15,15,0.08)]">
+            <div className="relative ml-auto w-full max-w-[42rem] overflow-hidden rounded-[2.5rem]  shadow-[0_30px_90px_rgba(15,15,15,0.08)]">
               <motion.img
                 src={vinit_hero}
                 alt="Vinit Karshala portrait"
                 initial={{ scale: 1.06 }}
                 animate={{ scale: 1 }}
                 transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
-                className="h-[28rem] w-full object-cover object-[30%_center] grayscale sm:h-[34rem] lg:h-[38rem]"
+                className="h-[28rem] w-full object-cover object-[30%_center]  sm:h-[14rem] lg:h-[38rem]"
               />
 
               <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-white via-white/55 to-transparent" />
 
               <div className="absolute left-6 top-6 rounded-full border border-black/10 bg-white/85 px-3 py-1 text-[0.68rem] font-medium uppercase tracking-[0.28em] text-black/55 backdrop-blur">
-                Selected portrait
+                Available for work
               </div>
             </div>
           </motion.div>
