@@ -11,7 +11,7 @@ import doctor_app from "./assets/public/doctor_app.png"
 export const SOCIAL_LINKS = [
   { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/vinit-karshala-953a01229/", label: "LinkedIn" },
   { icon: <Github size={20} />, href: "https://github.com/vinitgajjar13", label: "GitHub" },
-  { icon: <Instagram size={20} />, href: "https://www.instagram.com/ganzattux?igsh=bWl4cjQ0Y3V0dTFq", label: "Instagram" },
+  // { icon: <Instagram size={20} />, href: "https://www.instagram.com/ganzattux?igsh=bWl4cjQ0Y3V0dTFq", label: "Instagram" },
 ];
 
 export const SERVICES: Service[] = [

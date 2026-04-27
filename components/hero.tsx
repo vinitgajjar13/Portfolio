@@ -12,7 +12,7 @@ const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
   const socialLinks = [
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/vinit-karshala-953a01229/' },
     { label: 'GitHub', href: 'https://github.com/vinitgajjar13' },
-    { label: 'Instagram', href: 'https://www.instagram.com/ganzattux?igsh=bWl4cjQ0Y3V0dTFq' },
+    // { label: 'Instagram', href: 'https://www.instagram.com/ganzattux?igsh=bWl4cjQ0Y3V0dTFq' },
   ];
 
   const capabilities = [
