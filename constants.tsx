@@ -7,6 +7,9 @@ import pragalbh_guj from "./assets/public/pragalbh_guj.png";
 import gurukrupa from "./assets/public/gurukrupa.png"
 import jewellery from "./assets/public/jewellery.png"
 import doctor_app from "./assets/public/doctor_app.png"
+import tekna2 from "./assets/public/tekna2.png"
+import tekna from "./assets/public/tekna.png"
+
 
 export const SOCIAL_LINKS = [
   { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/vinit-karshala-953a01229/", label: "LinkedIn" },
@@ -45,6 +48,7 @@ export const PROJECTS: Project[] = [
 
     ],
     technologies: ["FIGMA", "WireFrame", "HTML", "CSS"],
+    link: "https://www.figma.com/proto/B9Q2iFYUb44sBFLqakpXBS/Untitled?node-id=62-3&t=y8qANnnSvITv1i0D-1"
     
   },
    {
@@ -71,6 +75,7 @@ export const PROJECTS: Project[] = [
 
     ],
     technologies: ["FIGMA", "WireFrame", "HTML", "CSS"],
+    link: "https://www.figma.com/proto/kRRHcqRadwVdcouMTXK480/project-Medi_AI?node-id=760-903&t=nydw8XIIAxdgzRkv-1"
     
   },
 
@@ -88,6 +93,21 @@ export const PROJECTS: Project[] = [
     ],
     technologies: ["React", "FIGMA", "MERN Stack", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Framer Motion", "TypeScript", "Git", "GitHub", "Vercel"],
     link: "https://www.pragalbh.co.in/"
+  },
+
+  {
+    id: "Tekna Window",
+    title: "Tekna Window Website",
+    category: "(Website Development)",
+    description: "In this project, I developed a website for Tekna Window, a company specializing in high-quality windows and doors. The website features a clean and modern design, showcasing the company's products and services. It includes smooth animations, a responsive layout for optimal viewing on all devices, and a focus on typography to highlight the content effectively .",
+
+    imageUrl: tekna,
+    images: [
+      tekna2,
+      tekna,  
+    ],
+    technologies: ["React", "Three.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Framer Motion", "TypeScript", "Git", "GitHub", "Vercel"],
+    link: "https://tekna.vercel.app"
   }
 ];
 

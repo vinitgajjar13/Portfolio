@@ -15,28 +15,28 @@ const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
     // { label: 'Instagram', href: 'https://www.instagram.com/ganzattux?igsh=bWl4cjQ0Y3V0dTFq' },
   ];
 
-  const capabilities = [
-    {
-      icon: Apple,
-      title: 'Appstore-style polish',
-      description: 'Clean visual hierarchy and crisp presentation for product-facing work.',
-    },
-    {
-      icon: Layers3,
-      title: 'Design systems',
-      description: 'Structured components and consistent spacing across screens.',
-    },
-    {
-      icon: ChartColumn,
-      title: 'Conversion focus',
-      description: 'Interfaces shaped to make the next action obvious and frictionless.',
-    },
-    {
-      icon: MoveRight,
-      title: 'Front-end delivery',
-      description: 'Motion, responsiveness, and implementation details that stay light.',
-    },
-  ];
+  // const capabilities = [
+  //   {
+  //     icon: Apple,
+  //     title: 'Appstore-style polish',
+  //     description: 'Clean visual hierarchy and crisp presentation for product-facing work.',
+  //   },
+  //   {
+  //     icon: Layers3,
+  //     title: 'Design systems',
+  //     description: 'Structured components and consistent spacing across screens.',
+  //   },
+  //   {
+  //     icon: ChartColumn,
+  //     title: 'Conversion focus',
+  //     description: 'Interfaces shaped to make the next action obvious and frictionless.',
+  //   },
+  //   {
+  //     icon: MoveRight,
+  //     title: 'Front-end delivery',
+  //     description: 'Motion, responsiveness, and implementation details that stay light.',
+  //   },
+  // ];
 
   return (
     <section className="relative overflow-hidden bg-white px-4 pb-20 pt-32 text-[#111111] sm:px-6 sm:pb-24 sm:pt-36 lg:px-8 lg:pb-28 lg:pt-32">
@@ -114,7 +114,7 @@ const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
           </motion.div>
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+        {/* <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
           {capabilities.map((item, index) => {
             const Icon = item.icon;
 
@@ -138,7 +138,7 @@ const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
               </motion.article>
             );
           })}
-        </div>
+        </div> */}
       </div>
     </section>
   );
