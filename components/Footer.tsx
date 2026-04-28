@@ -42,7 +42,7 @@ const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
     <footer ref={containerRef} className="bg-[#FFFFFF] dark:bg-[#0D1117] text-[#1a1a1a] dark:text-gray-100 py-12 sm:py-16 md:py-20 px-3 sm:px-6 md:px-12 mt-16 md:mt-20 relative overflow-hidden transition-colors duration-300">
 
       {/* Dynamic Background Circle */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60vw] sm:w-[40vw] h-[60vw] sm:h-[40vw] bg-[#A87E30] dark:bg-white/5 rounded-full blur-3xl pointer-events-none opacity-50" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60vw] sm:w-[40vw] h-[60vw] sm:h-[40vw] bg-[#A87E30] dark:bg-white/5 rounded-full blur-3xl pointer-events-none opacity-25" />
 
       <div className="max-w-[1440px] mx-auto relative z-10 flex flex-col h-full justify-between">
 
@@ -123,12 +123,12 @@ const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
 
           <div className="space-y-2">
             <div className="w-8 h-8 sm:w-10 sm:h-10 mb-2 sm:mb-4 bg-black dark:bg-white rounded-full flex items-center justify-center flex-shrink-0">
-              <span className="font-serif font-bold text-xs sm:text-sm md:text-base text-[#A87E30]">VK</span>
+              <span className="font-serif font-bold text-xs sm:text-sm md:text-base text-[#FFFFFF]">VK</span>
             </div>
             <h2 className="text-2xl sm:text-4xl md:text-6xl font-bold tracking-tighter uppercase leading-tight">
               Vinit Karshala
             </h2>
-            <p className="text-xs sm:text-sm md:text-base text-gray-500 dark:text-gray-400 font-medium">© 2024 Vinit Karshala</p>
+            <p className="text-xs sm:text-sm md:text-base text-gray-500 dark:text-gray-400 font-medium">© 2025 Vinit Karshala</p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-start sm:items-end gap-6 md:gap-12 w-full md:w-auto">

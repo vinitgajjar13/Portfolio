@@ -238,7 +238,7 @@ const ProjectModal: React.FC<{ project: Project; onClose: () => void }> = ({ pro
                   </div>
                   <div className="space-y-2">
                     <p className="text-gray-500 dark:text-gray-400 uppercase text-xs tracking-widest">Year</p>
-                    <p className="text-2xl font-bold">2024</p>
+                    <p className="text-2xl font-bold">2025</p>
                   </div>
                   {project.link && (
                     <div className="pt-8">
