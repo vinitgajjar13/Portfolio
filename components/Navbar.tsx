@@ -39,9 +39,9 @@ const Navbar: React.FC<NavbarProps> = ({ onOpenContact }) => {
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 bg-white rounded-full flex items-center justify-center shadow-sm cursor-pointer ml-0.5 sm:ml-1 flex-shrink-0"
+            className="w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 bg-[#A87E30] rounded-full flex items-center justify-center shadow-sm cursor-pointer ml-0.5 sm:ml-1 flex-shrink-0"
           >
-            <span className="font-serif font-bold text-sm sm:text-base md:text-lg text-[#A87E30]">VK</span>
+            <span className="font-serif font-bold text-sm sm:text-base md:text-lg text-white">VK</span>
           </motion.div>
 
           {/* Desktop Links */}
